@@ -15,6 +15,7 @@ SmartDeliverySystem is a Java-based application designed to simulate the deliver
 - Java Development Kit (JDK) 8 or higher
 - JavaFX library
 
+
 ### Installation
 1. Clone the repository:
    ```sh
