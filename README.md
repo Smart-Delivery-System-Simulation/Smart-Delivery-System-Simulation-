@@ -56,8 +56,5 @@ SmartDeliverySystem is a Java-based application designed to simulate the deliver
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-## License
-This project is licensed under the MIT License.
 
-## Contact
-For any questions or suggestions, please contact [your email].
+
