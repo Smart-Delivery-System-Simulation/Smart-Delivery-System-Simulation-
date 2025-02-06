@@ -1,51 +1,63 @@
+# SmartDeliverySystem
 
-```
-# Smart-Delivery-System-Simulation
-
-## Description
-This project simulates a smart delivery system. It aims to optimize delivery routes, manage delivery schedules, and improve overall efficiency in the delivery process.
+## Overview
+SmartDeliverySystem is a Java-based application designed to simulate the delivery of packages to various buildings within a city. The system calculates the best route for a delivery driver to take, optimizing for distance and gasoline cost. The application features a graphical user interface (GUI) to visualize the delivery process and provides detailed information about each delivery.
 
 ## Features
-- Route optimization
-- Schedule management
-- Real-time tracking
-- Automated notifications
+- **Phase 1 and Phase 2 Simulation**: Users can run simulations in two phases, with Phase 2 building upon the results of Phase 1.
+- **Graphical Visualization**: The GUI displays buildings, streets, and the delivery vehicle's route.
+- **Package Information**: Detailed information about each package and its delivery status.
+- **Performance Metrics**: Calculates and displays total distance, gasoline cost, and time taken for deliveries.
 
-## Installation
-To install the Smart-Delivery-System-Simulation, follow these steps:
+## Getting Started
 
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- JavaFX library
+
+### Installation
 1. Clone the repository:
-   ```
-   git clone https://github.com/Smart-Delivery-System-Simulation/Smart-Delivery-System-Simulation-.git
+   ```sh
+   git clone https://github.com/yourusername/SmartDeliverySystem.git
    ```
 2. Navigate to the project directory:
+   ```sh
+   cd SmartDeliverySystem
    ```
-   cd Smart-Delivery-System-Simulation-
+3. Ensure that JavaFX is properly set up in your development environment.
+
+### Running the Application
+1. Compile the Java files:
+   ```sh
+   javac -cp /path/to/javafx-sdk/lib/*:. *.java
    ```
-3. Install the necessary dependencies:
-   ```
-   [Provide installation steps specific to your project]
+2. Run the application:
+   ```sh
+   java -cp /path/to/javafx-sdk/lib/*:. FirstPage
    ```
 
 ## Usage
-To use the Smart-Delivery-System-Simulation, follow these steps:
+1. Launch the application.
+2. Select "Phase 1" to start the first phase of the simulation.
+3. After completing Phase 1, you can proceed to "Phase 2" to see the optimized route and performance improvements.
+4. Use the GUI to visualize the delivery process and view detailed information about each package.
 
-1. [Provide usage instructions specific to your project]
-2. [Include examples if applicable]
+## Project Structure
+- **MainProgram.java**: Initializes the objects and manages the main logic of the application.
+- **MainGUISimulation.java**: Handles the GUI components and user interactions.
+- **DeliveryDriver.java**: Contains the logic for calculating routes and managing deliveries.
+- **Customer.java**: Represents a customer with an assigned building and packages.
+- **Building.java**: Represents a building with a location and assigned package.
+- **Intersection.java**: Represents an intersection in the city with coordinates and distance calculations.
+- **Normal.java**: Represents a normal package.
+- **Reachable.java**: Interface for objects that can be reached via a phone number.
+- **CustomerWithContact.java**: Extends Customer to include contact information.
 
 ## Contributing
-We welcome contributions to the Smart-Delivery-System-Simulation project. To contribute, please follow these steps:
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Create a Pull Request
-
-
+## License
+This project is licensed under the MIT License.
 
 ## Contact
-For any questions or inquiries, please contact the repository owner at [Add contact information].
-```
-
-Feel free to customize the installation steps, usage instructions, and other details as needed. Let me know if there's anything specific you would like to include or modify.
+For any questions or suggestions, please contact [your email].
